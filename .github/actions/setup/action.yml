@@ -53,7 +53,7 @@ runs:
         sccache -z
 
     - name: Show sccache stats
-      uses: gacts/run-and-post-run@v1
+      uses: gacts/run-and-post-run@81b6ce503cde93862cec047c54652e45c5dca991 # v1.4.3
       with:
         run: sccache -s
         post: sccache -s
